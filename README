@@ -1,0 +1,37 @@
+# Custom Shell (`my_shell`) and Factorial Program (`fact`)
+
+This project consists of two programs:
+1. **`my_shell`**: A custom shell that can execute system commands and custom programs.
+2. **`fact`**: A standalone program to calculate the factorial of a given number.
+
+---
+
+## Features
+
+### `my_shell`
+- Simulates a basic command-line interface.
+- Executes standard system commands (e.g., `ls`, `pwd`, `gcc`).
+- Executes custom executables, including the `fact` program.
+- Includes a built-in `exit` command to quit the shell.
+
+### `fact`
+- Calculates the factorial of a given non-negative integer.
+- Handles invalid input gracefully (e.g., negative numbers or missing arguments).
+
+---
+
+## Getting Started
+
+### Prerequisites
+- GCC compiler (`gcc`) installed on your system.
+- Readline library installed (for `my_shell`).
+
+### Installation
+
+1. Clone or download the repository.
+2. Compile the programs:
+   ```bash
+   make
+
+# Screenshot of process tree
+![Process Tree Snapshot](C:\Users\USER\Desktop\MT24121_PA01)
